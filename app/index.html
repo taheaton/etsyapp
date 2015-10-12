@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paneraiapp</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="navcontainer">
+      <div class="nav1">
+        <ul id="navlist">
+          <li id="title">Etsy</li>
+          <li id="topbox"><input type="search"></li>
+          <button id="search">Search</button>
+          <li><a href class="toplink">Sell on Etsy</a></li>
+          <li><a href class="topreg">Register</a></li>
+          <li><a href class="signin">Sign in</a></li>
+          <img src="images/cart.png" id="img1" height="23" width="23">
+        </ul>
+      </div>
+    
+      <div class="nav2">      
+        <ul id="nav2">
+          <li><a href="#">Clothing & Accessories</a></li>
+          <li><a href="#">Jewelry</a></li>
+          <li><a href="#">Craft Supplies & Tools</a></li>
+          <li><a href="#">Weddings</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Home & Living</a></li>
+          <li><a href="#">Kids & Baby</a></li>
+          <li><a href="#">Vintage</a></li>
+        </ul>
+      </div>
+    </div>
+     
+    <div class="container">
+      <h1>
+        <span class="left">Show results for:</span>
+        <span class="middle"><span class="m1">All Categories</span> > "Panerai" <span class="m2">(871 Results)</span></span>
+        <span class="right">Sort by: <span>Relevancy</span></span>
+        <span class="caret">&#9660</span>
+      </h1>
+
+      <menu>
+          <ul>
+            <p>All Categories</p>
+            <li><a href="https://www.etsy.com/search/jewelry?q=panerai"> Jewelry</a></li>
+            <li><a href="https://www.etsy.com/search/accessories?q=panerai">Accessories</a></li>
+            <li><a href="https://www.etsy.com/search/craft-supplies-and-tools?q=panerai">Craft Supplies & Tools</a></li>
+            <li><a href="https://www.etsy.com/search/bags-and-purses?q=panerai">Bags & Purses</a></li>
+            <li><a href="https://www.etsy.com/search/art-and-collectibles?q=panerai">Art & Collectibles</a></li>
+            <li><a href="https://www.etsy.com/search/home-and-living?q=panerai">Home & Living</a></li>
+            <li><a href="https://www.etsy.com/search/books-movies-and-music?q=panerai">Books, Movies & Music</a></li>
+          </ul>
+
+        <h1>Refine Your Search</h1>
+          <ul class="menu">
+            <li>Item Type</li>
+            <li><input class="checkbubble" type="radio"><a href="#">All Items</a></li>
+            <li><input class="checkbubble" type="radio"><a href="#">Handmade</a></li>
+            <li><input class="checkbubble" type="radio"><a href="#">Vintage</a></li>
+            <li><hr></li>
+            
+            <li>Price</li>
+            
+            <div class="searchPrice">
+              <div>$<input type="searchp" placeholder="Low"></div> to
+              <div>$<input type="searchp" placeholder="High"></div>
+              <button class="priceUpdate"></button>
+            </div>
+            
+            <li><hr></li>
+            <li>Filter by Color</li>
+            <li><div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"></div>
+                <div class="color4"></div>
+                <div class="color5"></div>
+                <div class="color6"></div>
+                <div class="color7"></div>
+                <div class="color8"></div></li>
+            <li><hr></li>
+            <li>Ordering Options</li>
+            <li><input class="checkbox" type="checkbox"><a href="#">Accepts Etsy Gift Cards</a></li>
+            <li><input class="checkbox" type="checkbox"><a href="#">Customizable</a></li>
+            <li><hr></li>
+            <li>Shop Location</li>
+            <li><input class="checkbubble" type="radio"><a href="#">Accepts Etsy Gift Cards</a></li>
+            <li><input class="checkbubble" type="radio"><a href="#">Customizable</a></li>
+            <li>Choose a custom location</li>
+            <li><hr></li>
+            <li>Ship To</li>
+            <li><select class="countrymenu">
+                  <option>United States</option>
+                  <option>Everywhere Else</option>       
+                </select></li>
+          </ul>
+        
+          <ul>
+            <p>Item Type</p>
+            <li>All Items</li>
+            <li>Handmade</li>
+            <li>Vintage
+              <hr>
+            </li>
+          </ul>
+
+      </menu>
+
+      <script type="text/template" id="itemTemplate">
+      <div class="panerai">
+
+
+        <img src="<%= Images[0].url_170x135 %>"></img>
+        <div class="title">
+          <a href ="<%= url %>"><%= title %>
+          </a></div>
+
+        <p class="shop">
+          <a href ="<%= Shop.url %>"><%= Shop.shop_name %></a></p>
+          <p class="price">$<%= price %> <%= currency_code %>
+          </p>
+
+          
+      </div>
+      
+
+    </script>
+
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+  
+  

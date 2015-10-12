@@ -1,0 +1,246 @@
+body {
+background-color: #f5f5f1
+}
+
+ul { 
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.navcontainer {
+background-color: white;
+width: 100%;
+display: inline-block;
+height: 124px;
+vertical-align: center;
+}
+
+#navlist li
+{
+display: inline-block;
+padding-left: 12pt;
+}
+
+#title {
+  color: #f45800;
+  font-size: 30pt;
+  font-family: times,sans-serif;
+  margin-left: 68pt;
+  padding: 0pt;
+  border: 0pt;
+}
+
+#topbox input{
+  height: 31px;
+  width: 250px;
+  padding-top: 0px;
+  box-shadow: inset 0 1px 1px #E9E9E8,0 0 0 1000px #fbfbfa inset;
+  padding-left: 7pt;}
+#search {
+  display: inline;
+  height: 35px;
+  width: 75px;
+  padding: 0px;
+  background-color: #34A8C4;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin: 0pt;
+  margin-left: -25px;
+  border: 10px;
+  border-width: 1px;
+  border-radius: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+.toplink {
+  color: #34a8c4;
+  text-decoration: none;
+  margin-right: 0px;
+  margin-left: 259px;
+}
+.topreg {
+  color: #34a8c4;
+  text-decoration: none;
+}
+.signin {
+  color: #34a8c4;
+  text-decoration: none;
+  border: 1px solid #34a8c4;
+  padding: 10px;
+}
+#img1 {
+  height: 23;
+  width: 23;
+  top: 10px;
+}
+#carttext {
+  font-size: 12px;
+  margin-left: 1102px;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding: 0pt;
+  border: 0pt;
+}
+.nav1 {
+height: 79px;
+border: 1pt solid #d0d0d0;
+}
+
+.nav2 {
+background-color: white;
+width: 100%;
+height: 41px;
+border-bottom: 1px solid #d0d0d0;
+padding-left: 76pt;
+padding-top: 0pt;
+border: 1pt solid #d0d0d0;
+margin: 0;
+vertical-align: center;
+color: #555;
+}
+#nav2 ul
+  {
+    color: #555;
+  }
+#nav2 li
+{
+display: inline;
+padding: 7px;
+margin-left: 0pt;
+color: ##555;
+font-size: 11pt;
+}
+
+.container {
+  margin: 20px auto;
+  width: 980px;
+}
+h1 {
+    margin-top: 10pt;
+    padding: 0;
+    font-size: 0.9em; }
+
+.middle {
+  margin-left: 105pt;
+}
+.m1 {
+  font-weight: normal;
+  color: #34A8C4;
+}
+.m2 {
+  font-weight: normal;
+}
+.right {
+  margin-left: 215pt;
+  font-weight: normal;
+}
+.right span {
+  color: #34A8C4;
+}
+
+
+/* Main Object */
+menu {
+  margin: 4pt;
+  width: 25%;
+  height: 2000px;
+  float: left;
+  padding-left: 0; }
+
+menu ul {
+    background-color: white;
+    border: 1px solid lightgrey;
+    width: 220px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: -5px; }
+menu ul p {
+      margin: 0;
+      font-size: 0.85em; }
+menu ul li {
+      display: block;
+      padding: 5px;
+      font-size: 0.85em; }
+menu ul li a {
+        padding: 20px;
+        color: #5D91B8; }
+    menu ul hr {
+      width: 210px;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+    menu ul div {
+      width: 72px;
+      height: 38px;
+      border: 1px solid lightgrey;
+      border-radius: 2px;
+      display: inline-block; }
+    menu ul .color1 {
+      background-color: #EB1C2F; }
+    menu ul .color2 {
+      background-color: #F88200; }
+    menu ul .color3 {
+      background-color: #F1CD00; }
+    menu ul .color4 {
+      background-color: #42C200; }
+    menu ul .color5 {
+      background-color: #3ECBF7; }
+    menu ul .color6 {
+      background-color: #9D00FD; }
+    menu ul .color7 {
+      background-color: #000000; }
+    menu ul .color8 {
+      background-color: #FFFFFF; }
+  menu .searchPrice {
+    width: 50px;
+    display: inline-block; }
+  menu hr {
+    width: 150px;
+    text-align: center; }
+
+  .panerai {
+    width: 225px;
+    height: 225px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 5px;
+    overflow: hidden;
+    position: relative; }
+    
+    .panerai img {
+      width: 225px;
+      }
+    .panerai .title {
+      margin-top: 2px;
+      margin-left: 3px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      font-size: 0.7em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+       }
+      
+    .panerai .shop{
+      margin-top: 5px;
+      margin-left: 5px;
+      float: left;
+      font-size: 0.7em;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: #ACAAAC;} 
+    .panerai .price {
+      color: #8CC015;
+      margin-top: 5px;
+      margin-right: 5px;
+      float: right;
+      font-size: 0.7em;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
